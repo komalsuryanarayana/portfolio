@@ -1,0 +1,95 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+/* style.css */
+.project-details {
+    font-size: 14px; /* Adjust the font size as needed */
+    margin-top: 10px; /* Add some spacing between the headings and bullet points */
+  }
+/* style.css */
+.contact-details {
+    list-style-type: disc; /* Use bullets for the list items */
+    margin-top: 10px; /* Add spacing between the main contact details and the list */
+  }
+  
+  .contact-details li {
+    margin-bottom: 5px; /* Add spacing between individual list items */
+  }
+  
+  .contact-details a {
+    text-decoration: none;
+    color: #007bff; /* Change the color to match your design */
+  }
+    
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #007bff;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav a {
+        margin: 10px 0;
+    }
+}
