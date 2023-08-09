@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+      transition: background-color 1s ease, color 1s ease;
+    }
+
+    header {
+      background-color: #007bff;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 80vh;
+    }
+
+    #landing {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+      padding: 40px;
+      text-align: center;
+      max-width: 500px;
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 1s ease, transform 1s ease;
+    }
+
+    #landing.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    h1 span {
+      display: inline-block;
+      animation: bounce 1s alternate infinite;
+    }
+
+    h1 {
+      color: #007bff;
+      font-size: 32px;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    a {
+      display: inline-block;
+      padding: 12px 30px;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: background-color 0.5s, color 0.5s;
+      font-size: 16px;
+      margin-right: 15px;
+    }
+
+    a:hover {
+      background-color: #0056b3;
+      color: white;
+    }
+
+    .alt-link {
+      color: #007bff;
+      text-decoration: underline;
+    }
+
+    footer {
+      background-color: #007bff;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+
+    @keyframes bounce {
+      from {
+        transform: translateY(0);
+      }
+      to {
+        transform: translateY(-5px);
+      }
+    }
+  </style>
+  <script>
+    window.addEventListener('load', function() {
+      var landing = document.getElementById('landing');
+      var body = document.body;
+      landing.classList.add('show');
+      body.classList.add('show');
+    });
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Portfolio</h1>
+  </header>
+  <a href="portfolio.html">Enter Portfolio</a>
+  <a href="resume.pdf" class="resume-link" download>Resume</a>
+  <a href="#" class="alt-link">About Me</a>
+  <main>
+    <section id="landing">
+        <img src="profile-small.jpg" alt="Gade Komal Suryanaryana" class="profile-image">
+        <h1>
+          <span>Hello,</span>
+          <span>I'm</span>
+          <span>Gade</span>
+          <span>Komal</span>
+          <span>Suryanaryana</span>
+        </h1>
+        <p>Explore my journey, skills, and projects. Let's connect!</p>
+        <a href="Untitled-1.html">Enter Portfolio</a>
+        <a href="#" class="alt-link">About Me</a>
+      </section>
+  </main>
+  <footer>
+    <p>Copyright &copy; Gade Komal Suryanaryana 2023</p>
+  </footer>
+</body>
+</html>

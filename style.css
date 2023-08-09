@@ -1,0 +1,140 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+/* style.css */
+.project-details {
+    font-size: 14px; /* Adjust the font size as needed */
+    margin-top: 5px; /* Add some spacing between the headings and bullet points */
+  }
+/* style.css */
+.contact-details {
+    list-style-type: disc; /* Use bullets for the list items */
+    margin-top: 10px; /* Add spacing between the main contact details and the list */
+  }
+  
+  .contact-details li {
+    margin-bottom: 5px; /* Add spacing between individual list items */
+  }
+  
+  .contact-details a {
+    text-decoration: none;
+    color: #4a78a9; /* Change the color to match your design */
+  }
+    
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #007bff;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav a {
+        margin: 10px 0;
+    }
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+/* Inside the <style> ... </style> */
+.profile-image {
+    width: 120px; /* Adjust width as needed */
+    height: 120px; /* Adjust height as needed */
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  }
+/* Inside the styles.css */
+.back-button {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.5s, color 0.5s;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .back-button:hover {
+    background-color: #0056b3;
+  }
+/* Inside the styles.css */
+.resume-link {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.5s, color 0.5s;
+    margin-right: 15px;
+  }
+  
+  .resume-link:hover {
+    background-color: #0056b3;
+  }
+     

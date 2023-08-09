@@ -1,0 +1,9 @@
+/* Inside the <style> ... </style> */
+.komal-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; /* This creates a circular shape */
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
